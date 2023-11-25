@@ -61,4 +61,4 @@ const users = [
     }
 ];
 
-console.log(users.filter(el => el.id %2 === 0));
+console.log(users.filter(el => el.id % 2 === 0));
