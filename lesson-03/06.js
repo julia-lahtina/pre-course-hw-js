@@ -31,4 +31,6 @@ const users3 = [
     },
 ];
 
-const newUsers = users3.map(el => console.log({...el, isMarrid: true}));
+const newUsers = users3.map(el => el ? {...el, isMarried: true} : el);
+
+console.log(newUsers);
